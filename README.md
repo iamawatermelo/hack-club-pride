@@ -11,3 +11,7 @@ logo.
 - Optionally change the URL in `scripts/pride.js` if you want a
   different logo.
 - Load unpacked in your browser.
+
+## With userscripts
+
+Load `scripts/pride.js` as a userscript.
