@@ -1,0 +1,15 @@
+{
+  "name": "Hack Club Pride",
+  "version": "1.0",
+  "description": "Restore the Hack Club Pride logo",
+  "manifest_version": 3,
+  "minimum_chrome_version": "120",
+  "content_scripts": [
+    {
+      "js": ["scripts/pride.js"],
+      "matches": [
+        "https://app.slack.com/client/T0266FRGM/*"
+      ]
+    }
+  ]
+}
